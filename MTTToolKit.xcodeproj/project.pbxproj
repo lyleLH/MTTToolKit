@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		98CA5FB71E77EE200082EE05 /* MTTToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98CA5FB41E77EE200082EE05 /* MTTToolKit.h */; };
 		98CA5FBF1E77EE570082EE05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CA5FBE1E77EE570082EE05 /* UIKit.framework */; };
-		98CA5FC51E77EF390082EE05 /* UIView+FrameOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FC31E77EF390082EE05 /* UIView+FrameOperation.h */; };
+		98CA5FC51E77EF390082EE05 /* UIView+FrameOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FC31E77EF390082EE05 /* UIView+FrameOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98CA5FC61E77EF390082EE05 /* UIView+FrameOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA5FC41E77EF390082EE05 /* UIView+FrameOperation.m */; };
-		98CA5FC91E77F0080082EE05 /* UIView+DataOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FC71E77F0080082EE05 /* UIView+DataOperation.h */; };
+		98CA5FC91E77F0080082EE05 /* UIView+DataOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FC71E77F0080082EE05 /* UIView+DataOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98CA5FCA1E77F0080082EE05 /* UIView+DataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA5FC81E77F0080082EE05 /* UIView+DataOperation.m */; };
-		98CA5FCD1E77F0550082EE05 /* UIView+Funtions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FCB1E77F0550082EE05 /* UIView+Funtions.h */; };
+		98CA5FCD1E77F0550082EE05 /* UIView+Funtions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FCB1E77F0550082EE05 /* UIView+Funtions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98CA5FCE1E77F0550082EE05 /* UIView+Funtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA5FCC1E77F0550082EE05 /* UIView+Funtions.m */; };
+		98CA60051E77F67E0082EE05 /* UIView+TestFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA60031E77F67E0082EE05 /* UIView+TestFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CA60061E77F67E0082EE05 /* UIView+TestFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA60041E77F67E0082EE05 /* UIView+TestFunction.m */; };
+		98CA60071E77F70D0082EE05 /* MTTToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA5FB41E77EE200082EE05 /* MTTToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CA600C1E77F8250082EE05 /* UIViewExtensionHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA600B1E77F8080082EE05 /* UIViewExtensionHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CA600E1E77FB2E0082EE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CA600D1E77FB2E0082EE05 /* Foundation.framework */; };
+		98CA60131E77FCC80082EE05 /* UIView+TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CA60111E77FCC80082EE05 /* UIView+TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CA60141E77FCC80082EE05 /* UIView+TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA60121E77FCC80082EE05 /* UIView+TestLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +47,12 @@
 		98CA5FC81E77F0080082EE05 /* UIView+DataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DataOperation.m"; sourceTree = "<group>"; };
 		98CA5FCB1E77F0550082EE05 /* UIView+Funtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Funtions.h"; sourceTree = "<group>"; };
 		98CA5FCC1E77F0550082EE05 /* UIView+Funtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Funtions.m"; sourceTree = "<group>"; };
-		98CA5FCF1E77F12C0082EE05 /* UIViewExtensionsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExtensionsHeader.h; sourceTree = "<group>"; };
+		98CA60031E77F67E0082EE05 /* UIView+TestFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TestFunction.h"; sourceTree = "<group>"; };
+		98CA60041E77F67E0082EE05 /* UIView+TestFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TestFunction.m"; sourceTree = "<group>"; };
+		98CA600B1E77F8080082EE05 /* UIViewExtensionHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExtensionHeaders.h; sourceTree = "<group>"; };
+		98CA600D1E77FB2E0082EE05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98CA60111E77FCC80082EE05 /* UIView+TestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TestLog.h"; sourceTree = "<group>"; };
+		98CA60121E77FCC80082EE05 /* UIView+TestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TestLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA600E1E77FB2E0082EE05 /* Foundation.framework in Frameworks */,
 				98CA5FBF1E77EE570082EE05 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +97,7 @@
 		98CA5FBD1E77EE570082EE05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98CA600D1E77FB2E0082EE05 /* Foundation.framework */,
 				98CA5FBE1E77EE570082EE05 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -92,13 +106,17 @@
 		98CA5FC21E77EEE10082EE05 /* MTTUIExtension */ = {
 			isa = PBXGroup;
 			children = (
-				98CA5FCF1E77F12C0082EE05 /* UIViewExtensionsHeader.h */,
+				98CA600B1E77F8080082EE05 /* UIViewExtensionHeaders.h */,
 				98CA5FC31E77EF390082EE05 /* UIView+FrameOperation.h */,
 				98CA5FC41E77EF390082EE05 /* UIView+FrameOperation.m */,
 				98CA5FC71E77F0080082EE05 /* UIView+DataOperation.h */,
 				98CA5FC81E77F0080082EE05 /* UIView+DataOperation.m */,
 				98CA5FCB1E77F0550082EE05 /* UIView+Funtions.h */,
 				98CA5FCC1E77F0550082EE05 /* UIView+Funtions.m */,
+				98CA60031E77F67E0082EE05 /* UIView+TestFunction.h */,
+				98CA60041E77F67E0082EE05 /* UIView+TestFunction.m */,
+				98CA60111E77FCC80082EE05 /* UIView+TestLog.h */,
+				98CA60121E77FCC80082EE05 /* UIView+TestLog.m */,
 			);
 			path = MTTUIExtension;
 			sourceTree = "<group>";
@@ -110,8 +128,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA60071E77F70D0082EE05 /* MTTToolKit.h in Headers */,
+				98CA600C1E77F8250082EE05 /* UIViewExtensionHeaders.h in Headers */,
 				98CA5FCD1E77F0550082EE05 /* UIView+Funtions.h in Headers */,
 				98CA5FC51E77EF390082EE05 /* UIView+FrameOperation.h in Headers */,
+				98CA60131E77FCC80082EE05 /* UIView+TestLog.h in Headers */,
+				98CA60051E77F67E0082EE05 /* UIView+TestFunction.h in Headers */,
 				98CA5FC91E77F0080082EE05 /* UIView+DataOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,8 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA60141E77FCC80082EE05 /* UIView+TestLog.m in Sources */,
 				98CA5FCE1E77F0550082EE05 /* UIView+Funtions.m in Sources */,
 				98CA5FCA1E77F0080082EE05 /* UIView+DataOperation.m in Sources */,
+				98CA60061E77F67E0082EE05 /* UIView+TestFunction.m in Sources */,
 				98CA5FC61E77EF390082EE05 /* UIView+FrameOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,20 +299,26 @@
 		98CA5FBB1E77EE200082EE05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9YAL9X38J8;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		98CA5FBC1E77EE200082EE05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9YAL9X38J8;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
@@ -311,6 +341,7 @@
 				98CA5FBC1E77EE200082EE05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
